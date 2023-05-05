@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _playerMovement.Jump();
+            _playerMovement.JumpPlayer();
         }
     }
 }

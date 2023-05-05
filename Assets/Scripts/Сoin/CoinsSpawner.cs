@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinsSpawner : MonoBehaviour
 {
-    [SerializeField] private Jump _prefabCoin;
+    [SerializeField] private JumpCoin _prefabCoin;
     [SerializeField] private Transform _pointSpawn;
     [SerializeField] private float _delay;
 
